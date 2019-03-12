@@ -13,8 +13,7 @@
     <TextView android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:layout_gravity="center_horizontal"
-
-              android:layout_marginBottom="40dp"
+              android:layout_marginBottom="10dp"
               android:text="CARI JODOH"
               android:textSize="30dp"/>
 
@@ -47,9 +46,9 @@
 
     <Button android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             android:text="CARI"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="30dp"
             android:id="@+id/btnMatch"

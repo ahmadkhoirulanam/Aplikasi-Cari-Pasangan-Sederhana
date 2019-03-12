@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
                 else -> R.drawable.anam            }
 
             val drawableResemon = when (randomemon){
-                1 ->R.drawable.chendi
+                1 ->R.drawable.sendi
                 2 ->R.drawable.fuji
                 3 ->R.drawable.miabi
                 4 ->R.drawable.iklimah
