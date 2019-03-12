@@ -4,10 +4,19 @@
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
         android:orientation="vertical"
-        tools:context=".MainActivity">
+        android:background="#FFF"
+        tools:context=".MainActivity"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+
+              android:layout_marginBottom="40dp"
+              android:text="CARI JODOH"
+              android:textSize="30dp"/>
 
     <LinearLayout android:layout_width="match_parent"
                   android:layout_height="200dp"
@@ -15,8 +24,10 @@
 
         <ImageView android:layout_width="30dp"
                    android:layout_height="wrap_content"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="10dp"
                    android:id="@+id/emon1"
-                   android:src="@drawable/github"
+                   android:src="@drawable/anam"
                    android:layout_weight="1"/>
 
         <TextView android:layout_width="wrap_content"
@@ -24,16 +35,23 @@
                   android:gravity="center"
                   android:text="VS"
                   android:textSize="30dp"/>
+
         <ImageView android:layout_width="30dp"
                    android:layout_height="wrap_content"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="20dp"
                    android:id="@+id/dora1"
-                   android:src="@drawable/gambar"
+                   android:src="@drawable/ninik"
                    android:layout_weight="1"/>
     </LinearLayout>
 
-    <Button android:layout_width="100dp"
+    <Button android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="MATCH"
+            android:layout_marginTop="20dp"
+            android:text="CARI"
+            android:textSize="20sp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
             android:id="@+id/btnMatch"
             android:layout_gravity="center"/>
 

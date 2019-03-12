@@ -17,17 +17,21 @@ class MainActivity : AppCompatActivity() {
         }
 
         fun carijodoh() {
-            val randomDora = Random().nextInt(3)+1
-            val randomemon = Random().nextInt(3)+1
+            val randomDora = Random().nextInt(4)+1
+            val randomemon = Random().nextInt(4)+1
             val drawableResDora = when (randomDora){
-                1 ->R.drawable.coin
-                2 ->R.drawable.clock_grey
-                else -> R.drawable.github            }
+                1 ->R.drawable.rizal
+                2 ->R.drawable.huda
+                3 ->R.drawable.firman
+                4 ->R.drawable.niam
+                else -> R.drawable.anam            }
 
             val drawableResemon = when (randomemon){
-                1 ->R.drawable.triviafinal
-                2 ->R.drawable.wrongans
-                else -> R.drawable.gambar
+                1 ->R.drawable.chendi
+                2 ->R.drawable.fuji
+                3 ->R.drawable.miabi
+                4 ->R.drawable.iklimah
+                else -> R.drawable.ninik
 
             }
 
